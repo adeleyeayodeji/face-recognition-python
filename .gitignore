@@ -269,6 +269,7 @@ temp_saved_model/
 *.tar.gz
 *.rar
 *.7z
+*.keras
 
 # Temporary files
 temp/
@@ -290,3 +291,4 @@ tmp/
 
 # Uncomment if you don't want to track test images
 # faces_test/
+mobilefacenet.keras
