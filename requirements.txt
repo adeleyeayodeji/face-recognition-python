@@ -1,0 +1,19 @@
+# Core TensorFlow for Apple Silicon
+tensorflow-macos
+tensorflow-metal
+
+# Core scientific/ML packages
+numpy<2.0.0
+pandas
+scikit-learn
+matplotlib
+
+# Image processing
+opencv-python<4.10.0
+Pillow
+
+# Progress bars and utilities
+tqdm
+
+# If you need Jupyter
+jupyter
