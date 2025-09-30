@@ -21,7 +21,7 @@ class L2Normalization(tf.keras.layers.Layer):
 
 MODEL_FILE = "mobilefacenet.keras"
 OUTPUT_FILE = "ace_embedding.tflite"
-CONVERT_MODE = "fp16"  # "fp16" for mobile, "fp32" for server
+CONVERT_MODE = "fp32"  # "fp16" for mobile, "fp32" for server
 
 # ---------------------------
 # Load Model

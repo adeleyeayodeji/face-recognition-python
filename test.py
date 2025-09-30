@@ -38,8 +38,8 @@ def is_match(embedding1, embedding2, threshold=1.0):
 
 # ---- Test with sample images ----
 try:
-    emb1 = get_embedding("faces_test/pic1.png")
-    emb2 = get_embedding("faces_test/pic2.png")
+    emb1 = get_embedding("faces_test/pic2.png")
+    emb2 = get_embedding("faces_test/pic3.jpg")
 
     cosine = np.dot(emb1, emb2) / (np.linalg.norm(emb1) * np.linalg.norm(emb2))
     print("Cosine similarity:", cosine)

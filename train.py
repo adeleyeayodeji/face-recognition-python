@@ -124,7 +124,7 @@ model.compile(
 
 print("🚀 Training MobileFaceNet...")
 # model.fit(train_ds.take(10), epochs=2)  # quick test run
-model.fit(train_ds, epochs=20)
+model.fit(train_ds, epochs=70)
 
 model.save("mobilefacenet.keras")
 print("✅ Saved model: mobilefacenet.keras")
